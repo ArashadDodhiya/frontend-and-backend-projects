@@ -1,0 +1,48 @@
+# Node modules
+**/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Logs
+logs
+*.log
+**/logs/
+*.log.*
+
+# Build directories
+**/dist/
+**/build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Optional: Exclude lock files (if not using them)
+**/package-lock.json
+**/yarn.lock
+**/.pnpm-lock.yaml
+
+# React specific
+**/public/
+**/.cache/
+**/.sass-cache/
+
+# MongoDB
+*.lock
+.mongorc.js
+mongod.lock
+
+# Miscellaneous
+*.tmp
+*.temp
